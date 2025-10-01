@@ -7,3 +7,4 @@ nombre = input()
 
 # usamos la función float() para convertir texto a número decimal y int() a número entero
 saldo_inicial = float(input("Ingresa tu saldo inicial: "))
+saldo_final = float(input("Ingresa tu saldo final: "))

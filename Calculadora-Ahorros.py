@@ -12,3 +12,6 @@ meses = int(input("Ingresa el número de meses que quieres ahorrar: "))
 
 # calculamos el ahorro
 ahorro = (saldo_final - saldo_inicial) / meses
+
+# usamos la función round() para redondear los resultados a cero decimales
+print(f"{nombre}, si quieres tener un ahorro final de ${round(saldo_final, 0)} debes ahorrar ${round(ahorro, 0)} durante {meses} meses")

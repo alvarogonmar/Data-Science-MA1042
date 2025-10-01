@@ -9,3 +9,6 @@ nombre = input()
 saldo_inicial = float(input("Ingresa tu saldo inicial: "))
 saldo_final = float(input("Ingresa tu saldo final: "))
 meses = int(input("Ingresa el número de meses que quieres ahorrar: "))
+
+# calculamos el ahorro
+ahorro = (saldo_final - saldo_inicial) / meses

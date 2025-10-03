@@ -7,3 +7,6 @@ nombre = input("Ingresa tu nombre: ")
 saldo = int(input("Ingresa tu saldo inicial: "))
 deposito = int(input("Ingresa la cantidad a depositar en octubre: "))
 retiro = int(input("Ingresa la cantidad a retirar en diciembre: "))
+
+# usamos el ciclo for para calcular mes con mes los intereses y el saldo
+for mes in range(1, 12 + 1):

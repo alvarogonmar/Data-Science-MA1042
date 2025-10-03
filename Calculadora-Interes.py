@@ -10,3 +10,6 @@ retiro = int(input("Ingresa la cantidad a retirar en diciembre: "))
 
 # usamos el ciclo for para calcular mes con mes los intereses y el saldo
 for mes in range(1, 12 + 1):
+ 
+  #calculamos el interés mensual y lo sumamos a los acumuladores de interés y saldo
+  interes_mensual = saldo * tasa_interes / 12

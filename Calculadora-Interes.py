@@ -6,3 +6,4 @@ interes_acumulado = 0
 nombre = input("Ingresa tu nombre: ")
 saldo = int(input("Ingresa tu saldo inicial: "))
 deposito = int(input("Ingresa la cantidad a depositar en octubre: "))
+retiro = int(input("Ingresa la cantidad a retirar en diciembre: "))

@@ -14,3 +14,5 @@ for mes in range(1, 12 + 1):
   #calculamos el interés mensual y lo sumamos a los acumuladores de interés y saldo
   interes_mensual = saldo * tasa_interes / 12
   interes_acumulado = interes_acumulado + interes_mensual
+  saldo = saldo + interes_mensual
+
